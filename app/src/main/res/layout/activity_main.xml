@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-120dp"
+        android:layout_marginBottom="30dp"
+        android:text="SIMON GAME"
+        android:textColor="#0B0B0C"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:fontFamily="@font/aclonica" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="13dp"
+        android:layout_marginTop="13dp">
+
+        <Button
+       android:id="@+id/btnGreen"
+       android:background="@drawable/rounded_btngreen"
+       android:layout_width="100dp"
+       android:layout_height="100dp"
+       android:layout_marginRight="13dp"
+       />
+    <Button
+        android:id="@+id/btnRed"
+        android:background="@drawable/rounded_btn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+        android:id="@+id/btnYellow"
+        android:background="@drawable/rounded_btny"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginRight="13dp"
+        />
+        <Button
+            android:id="@+id/btnBlue"
+            android:background="@drawable/rounded_btnb"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#181716"
+        android:text="start"
+        android:textColor="#C6CFD6"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="30dp"
+        android:text="Click on start button to play"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txt"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="30dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/level"/>
+
+</LinearLayout>
